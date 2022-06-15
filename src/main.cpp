@@ -1,5 +1,6 @@
 #include <iostream>
-#include <piece.h>
+#include <Pieces/Piece.h>
+#include <Board/Board.h>
 
 #define TEST 1
 

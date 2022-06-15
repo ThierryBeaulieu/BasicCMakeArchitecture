@@ -2,16 +2,19 @@ cmake_minimum_required(VERSION 3.0)
 
 set(this pieces_lib)
 
+set(Source 
+    Pieces/Piece.cpp
+    Board/Board.cpp
+)
+
+set(Header 
+    Pieces/Piece.h
+    Board/Board.h
+)
+
 add_library(
     ${this}
     STATIC
-    ${CMAKE_CURRENT_SOURCE_DIR}/pieces/piece.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/pieces/piece.cpp
-)
-
-target_include_directories(
-    ${this}
-    PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}/pieces
-    
+    ${Source}
+    ${Header}
 )
