@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-set(This "ExempleTests")
+set(This "TestExecutable")
 
 set(Sources
     test.cpp
@@ -15,7 +15,7 @@ target_link_libraries(
     ${This}
     PUBLIC
     gtest_main
-    pieces_lib
+    ChessLib
 )
 
 add_test(
