@@ -1,15 +1,27 @@
 #include <iostream>
+
 #include <Pieces/Piece.h>
 #include <Board/Board.h>
 
-#define TEST 1
-
-#if TEST
 int main()
 {
-    std::cout << "Hello World!" << std::endl;
+
+#if RELEASE
+    std::cout << "Release version:" << std::endl;
+#endif
+
+
+#if DEBUG
+    std::cout << "Debug version:" << std::endl;
+#endif
+
+    std::cout << "Testing Piece::printPosition()" << std::endl;
     Piece p;
     p.printPosition();
+
+    std::cout << "Testing Board::state()" << std::endl;
+    Board b;
+    b.printState();
+
     return 0;
 }
-#endif

@@ -9,7 +9,7 @@ Board::~Board()
 {
 }
 
-void Board::printPosition()
+void Board::printState()
 {
-    std::cout << "Board::printPosition()" << std::endl;
+    std::cout << "Board::printState()" << std::endl;
 }

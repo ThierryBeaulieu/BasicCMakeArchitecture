@@ -6,7 +6,7 @@ class Board
 public:
     Board();
     ~Board();
-    void printPosition();
+    void printState();
 };
 
 #endif // BOARD_H
