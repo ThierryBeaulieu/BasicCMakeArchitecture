@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-set(This pieces_lib)
+set(This ChessLib)
 
 set(Source 
     Pieces/Piece.cpp
