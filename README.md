@@ -1,8 +1,13 @@
-# BasicCmakeArchitecture
+# BasicCMakeArchitecture
 
-Cmake is a tool that might seem counter intuitive at first. I haven't found basic cmake architecture on the internet. This is why, I created this project as a basic entry point for creating small cmake projects. The them of this basic architecture is a chess game.
+CMake is a tool that might seem counter intuitive at first. I haven't found a standard cmake architecture on the internet this far. For this reason, I created this template as a basic entry point for anyone tasked with creating a small CMake project. The example in the template was used to create a chess game. Feel free to adjust it to your needs or delete it entirely.
 
-# Installation
+Using this template, you can easily generate solutions for Visual Studio, projects for XCode, Makefiles, etc. The point is, you can generate and build your project anywhere.
 
-The project depends on [CMake](https://cmake.org/install/), I recommand you to download the CMake gui. Once that this is done, you will also need to download this github project. If you are using the CMake gui, you should be able to specify the location of the source files. After that, you should also be able to specify the location of the build folder. This is where the generated files will end up. The last thing that you need to do is to specify the Configuration of the project. If you make to use Makefile, you can use them. If you have Visual Studio and that you want to generate a Solution, you can. If you are on Mac and that you want to generate and .xcode projects, you also can. The point of using CMake is to create a wrapper that will make a source code run on your computer.
+# Installation Steps
 
+The project depends on [CMake](https://cmake.org/install/). I recommend you download the CMake GUI (it makes things that much easier!). Once you're done with that bit, you should also download or fork this github repository. 
+
+If you are using the CMake GUI, you need to select the root folder of this very repository as your CMake workspace. After that, you need to specify the location of the build folder (this can be anywhere on your computer, but I recommend you keep it somewhat close, as this is where the generated files will end up). The last thing that you need to do is to specify your project's configuration. 
+
+Ta daaaah, you're done.
