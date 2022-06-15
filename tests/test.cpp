@@ -1,8 +1,7 @@
 #include <gtest/gtest.h>
 
-#include <Pieces/Piece.h>
-#include <Board/Board.h>
-
+#include "../lib/Board/Board.h"
+#include "../lib/Pieces/Piece.h"
 
 // Tests true is true
 TEST(True, IsTrue)
