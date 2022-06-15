@@ -1,24 +1,24 @@
 cmake_minimum_required(VERSION 3.0)
 
-set(this "ExempleTests")
+set(This "ExempleTests")
 
 set(Sources
     test.cpp
 )
 
 add_executable(
-    ${this}
+    ${This}
     ${Sources}
 )
 
 target_link_libraries(
-    ${this}
+    ${This}
     PUBLIC
     gtest_main
     pieces_lib
 )
 
 add_test(
-    NAME ${this}
-    COMMAND ${this}
+    NAME ${This}
+    COMMAND ${This}
 )

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-set(this pieces_lib)
+set(This pieces_lib)
 
 set(Source 
     Pieces/Piece.cpp
@@ -13,7 +13,7 @@ set(Header
 )
 
 add_library(
-    ${this}
+    ${This}
     STATIC
     ${Source}
     ${Header}
