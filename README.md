@@ -1,6 +1,6 @@
 # BasicCMakeArchitecture
 
-CMake is a tool that might seem counter intuitive at first. I haven't found a standard cmake architecture on the internet this far. For this reason, I created this template as a basic entry point for anyone tasked with creating a small CMake project. The example in the template was used to create a chess game. Feel free to adjust it to your needs or delete it entirely.
+CMake is a tool that might seem counter intuitive at first. I found a couple of standard CMake architecture on the internet, but they are a bit limited. For this reason, I created this template as a basic entry point for anyone tasked with creating a small CMake project. The example in the template was used to create a chess game. Feel free to adjust it to your needs or delete it entirely.
 
 Using this template, you can easily generate solutions for Visual Studio, projects for XCode, Makefiles, etc. The point is, you can generate and build your project anywhere.
 
