@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include <Pieces/Piece.h>
-#include <Board/Board.h>
+#include <../lib/Pieces/Piece.h>
+#include <../lib/Board/Board.h>
 
 int main()
 {
