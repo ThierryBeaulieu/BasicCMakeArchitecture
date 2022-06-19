@@ -5,16 +5,6 @@
 
 int main()
 {
-
-#if RELEASE
-    std::cout << "Release version:" << std::endl;
-#endif
-
-
-#if DEBUG
-    std::cout << "Debug version:" << std::endl;
-#endif
-
     std::cout << "Testing Piece::printPosition()" << std::endl;
     Piece p;
     p.printPosition();
